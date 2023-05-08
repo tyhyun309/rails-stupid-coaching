@@ -3,6 +3,10 @@
     <%= @reply %>
 </p>
 <p>
+  You said... <br>
+  <%= params[:answer] %>
+</p>
+<p>
   <%= link_to ask_path, class: 'btn btn-primary' do %>
    <i class="fa-regular fa-comments-question"></i> Ask a new question
   <% end %>
